@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+* {
+    font-family: 'Special Elite', cursive;
+}
+
+* :focus {
+    outline: none;
+}
+
+.chuck {
+    height: 400px;
+    width: 400px;
+    background-image: url("https://market.enonic.com/applications/_/attachment/inline/1c700535-289d-4563-883f-cb8d4ec69b6a:43f4099ef34bd5fa69c7ab886d971be70cba17db/application.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    float:left;
+
+}
+.text{
+    transform: translateY(250%);
+}
+
+#get-joke {
+    padding:10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 4px rgba(33,33,33,.7);
+}
+#get-joke:hover {
+    cursor:pointer;
+}
+.box {
+    position: absolute;
+    left: 30%;
+    width: 50%;
+    float:right;
+
+}
+p {
+    text-align: left;
+    font-size: 14px;
+}
